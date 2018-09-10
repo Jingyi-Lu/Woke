@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1, user-scalable=0, minimal-ui">
+
+  <title>Welcome Page</title>
+</head>
+<style>
+  body {
+  background-image:url("/static/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 640px 165px;
+}
+.staywoke{
+  position: absolute;
+  top: 240px;
+  left: 100px;
+  }
+button {
+  position: absolute;
+  left: 85px;
+  top:350px;
+  border-radius: 4px;
+  background-color: #bea9e9;
+  border: none;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 250px;
+  height:40px
+
+}
+.body1{
+position:absolute;
+top:360px;
+font-size:16px;
+}
+</style>
+<body>
+<img  class="staywoke" style="width: 400px;height: 100px" src="/static/StayWoke.png">
+<button type="button">Log in</button>
+<div class="body1" onclick="window.location.href='/woke/login'">
+<div style="height: 75px;"></div>
+
+
+
+<p style="margin-left:100px;">- Sign up in under 10 secs -</p>
+<img style="margin-left:50px;" src="/static/facebook_icon.png" width="25" height="25" align="middle"/>
+<a href=""><u>FACEBOOK</u></a>
+
+<img style="margin-left:65px;" src="/static/google_icon.png" width="25" height="25" align="middle"/>
+<a href=""><u>GOOGLE</u></a>
+
+<p style="margin-left:120px;">- Or create account -</p>
+<img style="margin-left:112px;" src="/static/email_icon.png" width="25" height="25" align="middle"/>
+<a href="/woke/signup"><u>EMAIL ADDRESS</u></a>
+
+</div>

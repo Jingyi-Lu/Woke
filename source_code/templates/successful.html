@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, user-scalable=0, minimal-ui">
+    <title>successful sign up page</title>
+</head>
+<style>
+body {
+  background-image:url("/static/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 640px 165px;
+}
+img{
+  position: absolute;
+  top: 180px;
+  left: 100px;
+  }
+
+p1{
+    position: absolute;
+    top: 320px;
+    left:72px
+  }
+
+p2{
+    position: absolute;
+    top: 350px;
+    left:65px
+  }
+
+input{
+  position: absolute;
+  left: 85px;
+  top:420px;
+  border-radius: 4px;
+  background-color: #bea9e9;
+  border: none;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 250px;
+
+}
+</style>
+<body>
+<img  style="width: 400px;height: 100px" src="/static/StayWoke.png">
+<p1 style="font-size:120%;"> You have successfully signed up!</p1>
+<p2 style="font-size:120%;">Please log in with your email name</p2>
+
+
+<input type="submit" id="Login" value="Log in"  onclick="tran()"/>
+</body>
+
+<script>
+  function tran(){
+    window.location.href="/woke/login";
+  }
+
+ </script>
+</html>
